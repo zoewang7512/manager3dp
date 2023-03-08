@@ -1,3 +1,5 @@
+A website for managing 3D printers, planning production schedules according to machine conditions. User can monitor daily printer conditions, and record maintenance logs.  
+
 Created with CodeSandbox  
 Website Link: https://csb-eq6m45.netlify.app/  
 
