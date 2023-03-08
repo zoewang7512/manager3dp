@@ -1,0 +1,290 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.mmpage {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 5px;
+}
+
+.mmleft {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1rem;
+  height: 10vh;
+}
+
+.header-left {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+.header-menu {
+  color: #ff6d28;
+  text-align: right;
+}
+
+/*sidebar*/
+.sidebar-icons {
+  margin: 5% 5% 10px 0px;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+  color: #ff6d28;
+  background-color: #000;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+li:hover {
+  margin-left: 15px;
+  transition: 0.5s;
+}
+
+.showtime {
+  font-family: "Zen Dots", cursive;
+}
+/*calendar*/
+.react-calendar {
+  width: 300px;
+  max-width: 100%;
+  background-color: #222;
+  color: #fff;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+  margin: 1rem;
+}
+/*日曆標題*/
+.react-calendar__navigation button {
+  color: #ff6d28;
+  min-width: 44px;
+  background: none;
+  font-size: 16px;
+  margin-top: 8px;
+}
+/*日曆標題可以按的按鈕的hover效果*/
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #222;
+}
+/*日曆標題無法按的按鈕設計*/
+.react-calendar__navigation button[disabled] {
+  background-color: #222;
+  color: #222;
+}
+abbr[title] {
+  text-decoration: none;
+}
+
+.react-calendar__tile {
+  color: #fff;
+}
+
+.react-calendar__tile__weekday {
+  color: red;
+}
+
+/*日期可以選擇的hover效果*/
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background: #ff6d28;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.react-calendar__tile:disabled {
+  background-color: #222222;
+  color: #222;
+}
+
+/*今天*/
+.react-calendar__tile--now {
+  background-color: #222222;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #ff6d28;
+}
+/*今天華過去及選取*/
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #6f48eb33;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #ff6d28;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #ff6d28;
+  color: white;
+  font-weight: bold;
+}
+.progressBar {
+  margin: 3% 0px;
+}
+.progressBar span {
+  font-family: "Zen Dots", cursive;
+  font-size: 1rem;
+}
+.pmchart {
+  margin: 5% 0px 0px 0px;
+}
+/*
+.fuelProgressbar {
+  padding: 0 1em;
+  width: 150px;
+  height: 150px;
+}
+*/
+
+.CircularProgressbarArea {
+  margin: 3% 0px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.eqptAvailability {
+  width: 230px;
+  height: 230px;
+}
+.eqptAvailabilitySmall {
+  width: 150px;
+  height: 150px;
+}
+
+.card {
+  height: 115px;
+  margin: 3% 0%;
+}
+
+.card-title {
+  text-align: start;
+}
+.card-text {
+  text-align: end;
+  font-size: 3rem;
+}
+
+.tableArea {
+  margin: 3% 0px;
+  font-size: 12px;
+}
+
+.tableHeader {
+  margin: 3% 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tableAreaMM {
+  margin-top: 0px;
+  font-size: 12px;
+}
+.tableHeaderMM {
+  margin: 1% 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tr td {
+  padding: 1rem;
+}
+
+.login {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.login-card {
+  width: 400px;
+  max-width: 400px;
+  background-color: #222222;
+  border-radius: 5%;
+  padding: 15px;
+}
+
+.pmRight {
+  margin: 3% 0px;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  gap: 2px;
+}
+
+.pagination .page-num {
+  padding: 4px 7px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.pagination .page-num:hover {
+  background-color: #212529;
+  color: #fff;
+  transition: 0.5ms;
+}
+.pagination .active {
+  background-color: #212529;
+  color: #fff;
+}
+
+/*searchBar*/
+.searchBar {
+  display: grid;
+  justify-content: center;
+  margin: 10px 0px;
+  gap: 15px;
+}
+
+/*medium size*/
+@media (max-width: 771px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .mmpage {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
