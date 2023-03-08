@@ -2,7 +2,8 @@ Created with CodeSandbox
 Website Link: https://csb-eq6m45.netlify.app/  
 
 ### Sitemap  
-![sitemap](https://user-images.githubusercontent.com/64351360/223666946-bd75723f-2b62-40fd-a31c-38d1787fd445.png)  
+![sitemap](https://user-images.githubusercontent.com/64351360/223666946-bd75723f-2b62-40fd-a31c-38d1787fd445.png)   
+<img src=https://user-images.githubusercontent.com/64351360/223666946-bd75723f-2b62-40fd-a31c-38d1787fd445.png   width="60%" height="60%">  
 ### Home  
 ![Home](https://user-images.githubusercontent.com/64351360/223666932-c5a0136f-2ab5-4054-aa33-b6cbc9e68f18.png)  
 
